@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: black;
+    color: aquamarine;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(110, 252, 204);
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bod {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    gap: 32px;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+.againbutton{
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 12px;
+    background-color: black;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    font-size: 22px;
+}
+.again {
+    visibility: hidden;
+}
