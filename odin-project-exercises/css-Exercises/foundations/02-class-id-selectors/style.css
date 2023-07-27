@@ -1,0 +1,17 @@
+p {
+    background-color: lightpink;
+    font-family:  Verdana , 'Dejavu Sans', sans-serif;
+
+}
+#hi {
+    color: blue;
+    font-size: 36px;
+}
+.cooler{
+    font-size: 24px;
+}
+#hiagain{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
