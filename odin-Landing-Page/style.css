@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+.Logo {
+    font-weight: bolder;
+}
+.HeaderLinks {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.body {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 48px;
+    align-items: center;
+}
+.subbody {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding: 12px 0;
+    margin: 0px 50px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.bodyHead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 12px 0;
+}
+.bodySub {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 12px 0;
+}
+.bodyImage {
+    display: flex;
+    background-color: gray;
+    color: white;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 12px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 12px;
+}
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.randomInfoHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+}
+.info {
+    max-width: 125px;
+}
+.text {
+    padding: 10px 0px;
+    color: gray;
+}
+.backgroundQuote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    max-width: 700px;
+}
+.qouteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+div.qouteAuthor {
+    align-self: end;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.callBox {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.callBoxText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    width: 700px;
+    height: 100px;
+}
+
+.callButton{
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border-radius: 12px;
+    border-color: white;
+}
+.text1 {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.text2 {
+    color: #e5e7eb;
+    padding-top: 3px;
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+  }
