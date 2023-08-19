@@ -1,0 +1,60 @@
+* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+title {
+    display: none;
+}
+.calculatorMainBody {
+    background-color: green;
+    margin: 50px;
+}
+.calculatorDisplay {
+    border: 2px solid black;
+    background-color: white;
+    width: 410px;
+    height: 100px;
+    margin: 20px;
+    align-items: end;
+    justify-content: end;
+}
+.curCalc {
+    font-size: 50px;
+}
+.calculatorButtons {
+    flex-direction: row;
+}
+button {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+.allClear , .signSwap, .module {
+    background-color: lightblue;
+}
+.allClear:hover , .signSwap:hover, .module:hover {
+    background-color: rgb(110, 163, 180);
+    color: white;
+}
+.addition, .subtraction, .divison, .multiplcation, .equal {
+    background-color: orange;
+}
+.addition:hover, .subtraction:hover, .divison:hover, .multiplcation:hover, .equal:hover {
+    background-color: rgb(187, 122, 1);
+    color: white;
+}
+.number0, .decimal, .equal, .del {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
